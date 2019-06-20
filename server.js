@@ -2,7 +2,7 @@ const mongoose = require('mongoose');   // deklaracja zmiennej
 const Schema = mongoose.Schema;   // kolekcja w bazie danych 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/nodeappdatabase', {
+mongoose.connect('mongodb://conic916:34zuhe34zuhe@cluster0-shard-00-00-hebra.mongodb.net:27017,cluster0-shard-00-01-hebra.mongodb.net:27017,cluster0-shard-00-02-hebra.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority', {
     useMongoClient: true
 }); // polaczenie z baza danych 
 
